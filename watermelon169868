@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class watermelon169868 {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int wMelon = sc.nextInt();
+    float parte, i=1;
+    boolean flag = false;
+    while(i<wMelon){
+        i++;
+            parte=wMelon/i;
+            //System.out.println("i="+i+" parte:"+parte);
+            
+            if(parte % 2 == 0)
+            {   
+                System.out.println("YES");
+                flag = true;
+                i=101;
+            }
+            
+    }
+        if(flag == false)
+          System.out.println("NO");
+       // System.out.println("Afuera");
+  }
+}
+
